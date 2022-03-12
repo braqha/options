@@ -11,26 +11,38 @@
 <body>
   <h1>What are Options?</h1>
   <!-- test -->
-  <p><strong>Options</strong> are contracts that give you the right, <em>but not the obligation,</em> to buy 100 shares of an underlying stock or ETF at a designated strike price.
+  <p><strong>Options</strong> are contracts that give you the right, <em>but not the obligation,</em> to buy 100 shares of an underlying stock or ETF at a designated strike price. There are two types of options, calls and puts. Calls give you the right to buy 100 shares at the strike and puts give you the right to sell 100 shares at the strike.
   </p>
 
-  <p>
-  Because of this, options have the intrinsic value of potentially giving investors better entry points into positions on an underlying or exit points out of positions on an underlying. However, options also have extrinsic value in the form of time to expiration and implied volatility, both variables that help determine an options potential to become "in the money".    
+  <p>Because of this, options have the <em>intrinsic value</em> of potentially giving investors better entry points into positions on an underlying or exit points out of positions on an underlying. However, options also have <em>extrinsic value</em> in the form of <strong>time to expiration</strong> and <strong>implied volatility</strong>, both variables that help determine an options potential to become "in the money".    
   </p>
-  <un>
-      <li>Spreads</li>
-      <li>Iron Condors</li>
-  </un>
+
+  <p><strong>Implied volatility</strong> refers to the underlying stock's understood level of unpredictability. If a stock is expected to change in price rapidly, it has more of a chance to go in or out of the money, which increases it's potential value.      
+  </p>
+
+  <p><strong>Time to expiration</strong> refers to the amount of time between when the options contract is bought, or opened, and when the option expires. This time represents chances for the option's <em>intrinsic value</em> to grow or shrink. The speed at which an option's <em>intrinsic value</em> shrinks is given by the greek variable theta.      
+  </p>
+
+  <h2>Options Greeks</h2>
   <p>
       Option contracts have greek variables that help to determine different things about them.
       These variables are:
       <ol>
           <li>Delta</li>
+          <p>Delta represents the change in an option's premium based on a $1 change in the underlying's price.</p>
           <li>Theta</li>
+          <p>Theta represents decay in the intrinsic value portion of an option's premium caused by the passage of time.</p>
           <li>Gamma</li>
+          <p>Gamma represents the rate of change of delta and can help forecast price change in the underlying.</p>
           <li>Vega</li>
+          <p>Vega represents the risk of change in implied volatility.</p>
       </ol>
   </p>
+  <h2>Options Strategies</h2>
+  <un>
+      <li>Spreads</li>
+      <li>Iron Condors</li>
+  </un>
 </body>
 
 </html>
